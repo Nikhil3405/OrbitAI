@@ -49,10 +49,6 @@ router = APIRouter(
 )
 
 
-BASE_UPLOAD_DIR = Path("uploads/original")
-BASE_UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
-
-
 @router.post(
     "/upload",
     response_model=DatasetResponse,
