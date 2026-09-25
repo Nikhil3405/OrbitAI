@@ -13,7 +13,7 @@ class Settings(BaseSettings):
         env_file=".env",
         extra="ignore",
     )
-    CLERK_AUTHORIZED_PARTIES: str = "http://localhost:3000"
+    CLERK_AUTHORIZED_PARTIES: str = "https://orbit-ai-topaz-three.vercel.app"
     CLERK_JWT_KEY: str
     AUTH_REQUIRED: bool = True
     DEV_USER_ID: str = "dev_user"
