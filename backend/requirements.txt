@@ -12,7 +12,6 @@ duckdb
 polars
 clerk-backend-api
 groq
-psycopg2
 fastexcel
 pyarrow
 boto3
