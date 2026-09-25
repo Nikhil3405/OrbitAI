@@ -16,3 +16,4 @@ psycopg2
 fastexcel
 pyarrow
 boto3
+psycopg2-binary
